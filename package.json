@@ -1,0 +1,27 @@
+{
+  "name": "phonegap-amd-hello-world",
+  "version": "1.0.0",
+  "description": "> A Hello World template built with PhoneGap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaotao1989/phonegap-amd.git"
+  },
+  "author": "zhaotao",
+  "license": "Apache-2.0.0",
+  "scripts": {
+    "postinstall": "bower install && gulp setup"
+  },
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template"
+  ],
+  "homepage": "https://github.com/zhaotao1989/phonegap-amd",
+  "devDependencies": {
+    "bower-files": "^3.13.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "minimist": "^1.2.0"
+  }
+}
